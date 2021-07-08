@@ -1,0 +1,17 @@
+{
+    "name": "vendor_name/RestClient",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "jisse",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^8.0",
+        "psr/http": "*",
+        "justinrainbow/json-schema": "^5.2"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schemas/address",
+  "type": "object",
+  "properties": {
+    "review": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "detail": { "type": "string" },
+        "nickname": { "type": "string" }
+      },
+      "required": ["title", "detail"]
+    }
+  }
+}
